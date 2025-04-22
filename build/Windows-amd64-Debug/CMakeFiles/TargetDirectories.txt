@@ -1,0 +1,11 @@
+C:/Projects/SocketsWithGrok/build/Windows-amd64-Debug/CMakeFiles/edit_cache.dir
+C:/Projects/SocketsWithGrok/build/Windows-amd64-Debug/CMakeFiles/rebuild_cache.dir
+C:/Projects/SocketsWithGrok/build/Windows-amd64-Debug/Source/CMakeFiles/Common.dir
+C:/Projects/SocketsWithGrok/build/Windows-amd64-Debug/Source/CMakeFiles/edit_cache.dir
+C:/Projects/SocketsWithGrok/build/Windows-amd64-Debug/Source/CMakeFiles/rebuild_cache.dir
+C:/Projects/SocketsWithGrok/build/Windows-amd64-Debug/Client/CMakeFiles/Client.dir
+C:/Projects/SocketsWithGrok/build/Windows-amd64-Debug/Client/CMakeFiles/edit_cache.dir
+C:/Projects/SocketsWithGrok/build/Windows-amd64-Debug/Client/CMakeFiles/rebuild_cache.dir
+C:/Projects/SocketsWithGrok/build/Windows-amd64-Debug/Server/CMakeFiles/Server.dir
+C:/Projects/SocketsWithGrok/build/Windows-amd64-Debug/Server/CMakeFiles/edit_cache.dir
+C:/Projects/SocketsWithGrok/build/Windows-amd64-Debug/Server/CMakeFiles/rebuild_cache.dir

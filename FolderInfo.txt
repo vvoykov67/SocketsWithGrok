@@ -1,0 +1,43 @@
+SocketProject/
+├── Include/
+│   ├── BasicSocket.h
+│   ├── Buffer.h
+│   ├── Error.h
+│   ├── File.h
+│   ├── IpAddress.h
+│   ├── Message.h
+│   ├── BasicSocketFactory.h
+│   ├── SocketListener.h
+│   ├── Platforms/
+│   │   ├── windows/
+│   │   │   ├── Socket.h
+│   │   │   ├── SocketFactory.h
+│   │   │   ├── WinsockInitializer.h
+│   │   ├── unix/
+│   │   │   ├── Socket.h
+│   │   │   ├── SocketFactory.h
+├── Source/
+│   ├── Buffer.cpp
+│   ├── CMakeLists.txt
+│   ├── Error.cpp
+│   ├── File.cpp
+│   ├── IpAddress.cpp
+│   ├── Message.cpp
+│   ├── SocketListener.cpp
+│   ├── Platforms/
+│   │   ├── windows/
+│   │   │   ├── Socket.cpp
+│   │   │   ├── SocketFactory.cpp
+│   │   │   ├── WinsockInitializer.cpp
+│   │   ├── unix/
+│   │   │   ├── Socket.cpp
+│   │   │   ├── SocketFactory.cpp
+├── Client/
+│   ├── Client.h
+│   ├── Client.cpp
+│   ├── CMakeLists.txt
+│   ├── main.cpp
+├── Server/
+│   ├── CMakeLists.txt
+│   ├── main.cpp
+└── CMakeLists.txt

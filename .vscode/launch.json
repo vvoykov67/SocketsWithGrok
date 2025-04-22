@@ -1,0 +1,34 @@
+{
+    "configurations": [
+        {
+            "name": "Debug Client",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/Windows-amd64-Debug/Client/Client.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/build/Windows-amd64-Debug/Client",
+            "environment": [],
+            "console": "externalTerminal"
+        },
+        {
+            "name": "Debug Server",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/Windows-amd64-Debug/Server/Server.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/build/Windows-amd64-Debug/Server",
+            "environment": [],
+            "console": "externalTerminal"
+        },
+        {
+            "type": "cmake",
+            "request": "launch",
+            "name": "Debug portfile(s)",
+            "cmakeDebugType": "external",
+            "pipeName": "\\\\.\\pipe\\vcpkg_ext_portfile_dbg",
+            "preLaunchTask": "Debug vcpkg commands"
+        }
+    ]
+}
